@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Construclick
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/Construclick
+    username: root
+    password: 
+
+  jpa:
+    hibernate:
+      #ddl-auto: create
+      ddl-auto: update
